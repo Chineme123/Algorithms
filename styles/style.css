@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.linear{
+    border: 1px solid;
+    /* padding: 1rem; */
+}
+
+.linear h1{
+    margin-bottom: 50px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.array{
+    /* border: 1px solid; */
+    /* padding: 0.5rem; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.array input{
+    border: 1px solid;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding-left: 1rem;
+}
+
+/* .active{
+    background-color: gray;
+} */
+
+.compare-op{
+    border: 1px solid;
+    width: fit-content;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    translate: calc((100vw - 500px)/11);
+}
+
+.equals{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject{
+    border: none;
+    background-color: blue;
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding-left: 1rem;
+}
+
+button{
+    margin-bottom: 0.5rem;
+    translate: 46.3vw;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: 0.5px solid;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
